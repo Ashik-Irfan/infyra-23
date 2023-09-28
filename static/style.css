@@ -616,12 +616,12 @@ footer a:hover{
     background-color: rgba(0, 0, 0, 0.329);
     color: #eeeeee;
     cursor: pointer;
-    outline: 1px solid #eeeeee;
+    outline: 1px solid #F9943B;
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 0 0 10px #F9943B;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    transform: scale(0);
+    transform: scale(1);
 }
 
 .top:hover{
