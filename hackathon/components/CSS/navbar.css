@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0.5% 1%;
+  padding:0.5% -3%;
   position: fixed;
   width: 100%;
   backdrop-filter: blur(2px) saturate(180%);
@@ -157,6 +157,11 @@
   transform: scale(1);
 }
 @media (max-width: 800px) {
+  .theinevitable{
+    scale: 0.6 !important;
+  }
+  .header-nav{
+height:12vh;  }
   .header-nav .nav-buttons{
       display: none;
   }
