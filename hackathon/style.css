@@ -76,6 +76,14 @@ schedule, sponsors{
 .phase-deadline{
   color:#888;
 }
+marquee{
+  position:absolute;
+  top:14%;
+  margin:0% 13%;
+  color:rgb(255, 7, 7);
+  font-weight:bold;
+  font-size:1.4rem
+}
 .sponsors{
   width:100vw;
   display: flex;
@@ -130,5 +138,10 @@ schedule, sponsors{
   .phase-img{ 
     transform: scale(0.7);
   }
-  
+  marquee{
+    top:12%;
+  }
+  marquee img{
+    width:10%;
+  }
 }
