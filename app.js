@@ -1,37 +1,35 @@
 const overlayGlitch = document.querySelector('.overlay');
-const overlayGlitchEffect = PowerGlitch.glitch(overlayGlitch,{
-  "playMode": "always",
-  "createContainers": true,
-  "hideOverflow": false,
-  "timing": {
-    "duration": 800,
-    "easing": "ease-in-out"
-  },
-  "glitchTimeSpan": {
-    "start": 0.5,
-    "end": 0.7
-  },
-  "shake": {
-    "velocity": 15,
-    "amplitudeX": 0.08,
-    "amplitudeY": 0.08
-  },
-  "slice": {
-    "count": 6,
-    "velocity": 9,
-    "minHeight": 0.02,
-    "maxHeight": 0.15,
-    "hueRotate": true
-  }
-});
-overlayGlitchEffect.stopGlitch();
+// const overlayGlitchEffect = PowerGlitch.glitch(overlayGlitch,{
+//   "playMode": "always",
+//   "createContainers": true,
+//   "hideOverflow": false,
+//   "timing": {
+//     "duration": 800,
+//     "easing": "ease-in-out"
+//   },
+//   "glitchTimeSpan": {
+//     "start": 0.5,
+//     "end": 0.7
+//   },
+//   "shake": {
+//     "velocity": 15,
+//     "amplitudeX": 0.08,
+//     "amplitudeY": 0.08
+//   },
+//   "slice": {
+//     "count": 6,
+//     "velocity": 9,
+//     "minHeight": 0.02,
+//     "maxHeight": 0.15,
+//     "hueRotate": true
+//   }
+// });
+// overlayGlitchEffect.stopGlitch();
 
 setTimeout(() => {
-  overlayGlitchEffect.startGlitch();
 }, 0);
 
 setTimeout(()=>{
-  overlayGlitchEffect.stopGlitch();
   overlayGlitch.classList.add("hide-away");
   document.querySelector(".he").scrollIntoView();
 },2300);
