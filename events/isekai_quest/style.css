@@ -227,8 +227,14 @@ body {
   color: white;
   background-color: #F9A23B;
   transform: scale(1.1);
-  box-shadow: 0 0 35px #F9A23B;
+  box-shadow: 0 0 35px rgb(249, 162, 59);
 }
+
+.h3tag img{
+     height: 40px;
+}
+
+
 .h2tag-3 {
   font-weight: 500;
   font-size: 25px;
