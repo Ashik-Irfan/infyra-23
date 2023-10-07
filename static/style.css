@@ -385,7 +385,7 @@ hr{
 }
 
 .event-reg-btn img{
-    width: 70%;
+    width: 80%;
     outline: 1px solid white;
     border-radius: 12px;
     border: 1px solid #F9943B;
@@ -479,6 +479,7 @@ hr{
     text-decoration: none;
     background: rgb(29, 29, 29);
     width: 25%;
+    height: auto;
     border-radius: 10px;
     outline: 1px solid white;
     box-shadow: 0 0 10px #F9943B;
@@ -487,6 +488,7 @@ hr{
 
 .company-btn img{
     width: 100%;
+    height: auto;
 }
 
 .company-btn:last-of-type{
